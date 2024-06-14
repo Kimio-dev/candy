@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(244, 212, 164);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color:rgb(208, 68, 68) !important;
+}
+
+.nav-item {
+    color: #FFF !important;
+}
+
+.navbar-nav a:hover{
+    color:rgb(208, 68, 68) !important;
+}
+
+.main_contents {
+    width: 100%;
+    max-width: 100%;
+}
+/* page1 */
+.page1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    
+} 
+
+.page1_discription {
+    width: 50%;
+    font-size: 2rem;
+    color: #FFF;
+}
+
+.slash {
+    color: red;
+}
+
+.page1_pic {
+    width: 50%;  
+}
+.page1_pic img{
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:991px) {
+    .page1_discription {
+        display: none;
+    }
+    .page1_pic {
+        width: 100%;
+    }
+}
+
+/* page2 */
+.page2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page2_pic {
+    width: 50%;  
+}
+
+.page2_pic img{
+    width: 100%;
+    height: auto;
+}
+
+.page_title {
+    font-size: 1.5rem;
+    color:rgb(208, 68, 68);
+    margin-bottom: 20px;
+}
+
+.candy_icon img {
+    width: 10%;
+    height: auto;
+    margin-bottom: 20px
+}
+
+.page2_discription {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #FFF;
+}
+
+@media (max-width:900px) {
+    .page2 {
+        flex-flow: column-reverse;
+    }
+   
+    .page2_discription {
+        width: 100%;
+    }
+    .page2_pic {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/* page3 */
+.page3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.page3_discription {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #FFF;
+    
+}
+
+.page3_pic {
+    width: 50%;
+}
+.page3_pic img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width:900px) {
+    .page3 {
+        flex-flow: column;
+    }
+   
+    .page3_discription {
+        width: 100%;
+    }
+    .page3_pic {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.navbar.scrolled {
+    background-color: rgb(231, 138, 231);
+    transition: background 500ms ;
+}
